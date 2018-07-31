@@ -1,5 +1,5 @@
 public class Node 
 {
-	int data;
-	Node next;
+	int data;   #to put data  
+	Node next; #pointer to next element 
 }
