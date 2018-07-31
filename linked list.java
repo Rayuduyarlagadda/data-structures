@@ -1,11 +1,11 @@
 public class LinkedList 
 {
-	Node head;
+	Node head;          #declaring a reference variable head of classNode
 	
-	public void insert(int data)
+	public void insert(int data)  
 	{
-		Node node = new Node();
-		node.data = data;
+		Node node = new Node(); #creating a node.
+		node.data = data;   
 		node.next = null;
 		
 		if(head==null)
